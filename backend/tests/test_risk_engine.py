@@ -24,12 +24,12 @@ def test_calculate_risk_score_high():
     assert status == "HIGH"
 
 def test_calculate_risk_score_medium():
-    fraud_prob = 0.40
+    fraud_prob = 0.60
     anomaly_score = False
     
     result = calculate_risk_score(fraud_prob, anomaly_score, 1, 0, 2.0)
     score = result["risk_score"]
     status = result["risk_level"]
     
-    assert 0 <= score <= 40
+    assert 40 <= score <= 79
     assert status == "MEDIUM"
