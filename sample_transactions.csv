@@ -1,0 +1,8 @@
+transaction_id,user_id,transaction_amount,transaction_time,location,device,merchant_category,payment_method
+TXN001,U101,500,2026-09-05 10:30:00,Chennai,Android,Food,UPI
+TXN002,U102,1500,2026-09-05 14:20:00,Coimbatore,iOS,Retail,Credit Card
+TXN003,U101,85000,2026-09-05 02:15:00,Mumbai,NewDeviceX,Electronics,UPI
+TXN004,U103,120,2026-09-05 09:10:00,Delhi,Android,Utilities,Net Banking
+TXN005,U104,20000,2026-09-05 18:45:00,Bangalore,Windows,Travel,Credit Card
+TXN006,U101,400,2026-09-05 11:15:00,Chennai,Android,Food,UPI
+TXN007,U105,95000,2026-09-05 03:30:00,Kolkata,Mac,Entertainment,Credit Card

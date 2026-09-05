@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+.env
+*.json
+!models/model_metadata.json
+!models/historical_stats.json
+.DS_Store
