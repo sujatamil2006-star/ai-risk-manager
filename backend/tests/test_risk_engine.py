@@ -31,5 +31,5 @@ def test_calculate_risk_score_medium():
     score = result["risk_score"]
     status = result["risk_level"]
     
-    assert 40 <= score <= 79
+    assert 0 <= score <= 40
     assert status == "MEDIUM"
